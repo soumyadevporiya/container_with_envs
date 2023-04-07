@@ -16,7 +16,6 @@ from kafka import KafkaProducer
 import urllib.request
 from google.cloud.bigquery_storage import ReadSession
 from google.cloud.bigquery_storage import DataFormat
-import editdistance
 import pandas as pd
 
 from multiprocessing import Process, Queue, Pool
